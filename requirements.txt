@@ -1,0 +1,24 @@
+# dl
+transformers[torch,accelerate,sentencepiece]>=4.30.0
+torch>=2.0.0
+sentencepiece>=0.2.0
+
+# data
+tokenizers
+datasets
+evaluate
+fast-aug==0.1.0
+numpy
+
+# utils
+scipy
+scikit-learn
+tqdm
+torchinfo
+click
+neptune
+python-dotenv
+black==24.3.0
+
+# distutils was removed in python 3.12, but used in transformers
+setuptools; python_version>="3.12"
